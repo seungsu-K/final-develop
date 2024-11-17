@@ -1,0 +1,8 @@
+.Component {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-20);
+  margin-bottom: 14.49rem;
+}

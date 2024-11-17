@@ -1,0 +1,23 @@
+.component {
+  .contents {
+    padding: var(--spacing-20);
+    background-color: var(--background);
+    border-bottom: 1px solid var(--content-tertiary);
+  }
+
+  .headline {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: var(--spacing-16);
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--spacing-8);
+  }
+
+  .button__container {
+    margin: var(--spacing-12) 0;
+  }
+}

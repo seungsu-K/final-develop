@@ -1,0 +1,9 @@
+.component {
+  display: flex;
+  flex-flow: column;
+  gap: var(--spacing-12);
+  align-items: center;
+  background-color: var(--background);
+  padding: var(--spacing-20) var(--spacing-12);
+  min-block-size: 16rem;
+}

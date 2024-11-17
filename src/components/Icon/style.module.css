@@ -1,0 +1,9 @@
+.component {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  span {
+    font-size: 0.625rem;
+  }
+}

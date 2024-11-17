@@ -1,0 +1,41 @@
+.tooltipWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 1;
+  padding: 0.5rem;
+  background-color: var(--content-primary);
+  color: var(--white);
+  border-radius: 0.25rem;
+  font-size: 14px;
+  white-space: nowrap;
+  visibility: visible;
+  opacity: 1;
+}
+
+.top {
+  bottom: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom {
+  top: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.left {
+  top: 50%;
+  right: 105%;
+  transform: translateY(-50%);
+}
+
+.right {
+  top: 50%;
+  left: 105%;
+  transform: translateY(-50%);
+}

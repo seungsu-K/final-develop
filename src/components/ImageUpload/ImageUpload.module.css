@@ -1,0 +1,27 @@
+.ImageUpload__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-4);
+  padding: var(--spacing-12);
+  cursor: pointer;
+}
+
+.input {
+  display: none;
+}
+
+.ImageUpload__imageName {
+  padding: var(--spacing-12);
+
+  span {
+    display: block;
+  }
+}

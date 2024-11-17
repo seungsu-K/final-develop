@@ -1,0 +1,39 @@
+.component {
+  display: flex;
+  gap: var(--spacing-12);
+  align-items: center;
+  padding: var(--spacing-12);
+  border-bottom: 1px solid var(--content-tertiary);
+
+  .chat__container {
+    display: flex;
+    flex-flow: column;
+    gap: var(--spacing-4);
+  }
+
+  .chat__container__header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-4);
+
+    h3 {
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+
+    span {
+      font-size: 0.625rem;
+      font-weight: 400;
+      color: var(--content-secondary);
+    }
+  }
+
+  .chat__container__message {
+    font-size: 0.875rem;
+    font-weight: 400;
+    width: 14rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

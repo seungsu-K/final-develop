@@ -1,0 +1,26 @@
+.component {
+  background: var(--background, #f4f4f4);
+
+  .textarea {
+    border-bottom: 1px solid var(--content-tertiary);
+  }
+
+  .image__upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2.8125rem;
+    border-bottom: 1px solid var(--content-tertiary, #d9d9d9);
+    font-size: 0.875rem;
+
+    p {
+      font-size: 0.625rem;
+      color: var(--content-secondary);
+    }
+  }
+
+  .button:disabled {
+    background-color: var(--content-tertiary);
+    cursor: not-allowed;
+  }
+}

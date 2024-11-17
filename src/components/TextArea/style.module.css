@@ -1,0 +1,32 @@
+.component {
+  position: relative;
+
+  textarea {
+    display: block;
+    width: 20rem;
+    height: 11.125rem;
+    padding: var(--spacing-12);
+    border: none;
+    background: var(--background, #f4f4f4);
+    resize: none;
+
+    &:focus {
+      outline: 2px solid var(--primary);
+      border-radius: var(--rounded-lg);
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .charCount {
+    position: absolute;
+    bottom: 1px;
+    right: var(--spacing-4);
+    padding: var(--spacing-12);
+    font-size: 0.75rem;
+    color: var(--content-secondary);
+    background-color: transparent;
+  }
+}

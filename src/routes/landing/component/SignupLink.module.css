@@ -1,0 +1,6 @@
+.Component {
+  display: flex;
+  flex-flow: column;
+  margin-top: 0.62rem;
+  text-align: center;
+}

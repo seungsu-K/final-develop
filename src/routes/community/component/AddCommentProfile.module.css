@@ -1,0 +1,25 @@
+.component {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px;
+  font-size: 0.625rem;
+}
+
+.AddCommentProfile {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  line-height: 160%;
+}
+
+.AddCommentProfile__nickName {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
+
+  h3 {
+    font-weight: 600;
+  }
+}

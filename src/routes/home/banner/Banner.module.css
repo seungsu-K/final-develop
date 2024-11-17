@@ -1,0 +1,39 @@
+.component {
+  position: relative;
+}
+
+.Swiper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+
+  a > img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+}
+
+.pagination {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+  bottom: 12px;
+  right: 12px;
+  padding-left: 3px;
+  width: 2.5rem;
+  height: 1.125rem;
+  border-radius: 1.25rem;
+  background-color: rgba(16, 17, 21, 0.8);
+}
+
+.pagination__text {
+  color: var(--content-secondary);
+  font-variant-numeric: tabular-nums;
+
+  & span:nth-child(1) {
+    color: var(--white);
+  }
+}

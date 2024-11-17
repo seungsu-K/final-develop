@@ -1,0 +1,21 @@
+.Component {
+  text-align: center;
+  position: relative;
+  color: var(--content-secondary);
+}
+
+.InputGroup {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 5.25rem;
+}
+
+.button {
+  width: 18.5rem;
+  height: 2.8125rem;
+  justify-content: center;
+  border-radius: 1.25rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+}

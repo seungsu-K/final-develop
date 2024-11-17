@@ -1,0 +1,33 @@
+.formWrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.EmailStepForm {
+  display: flex;
+  flex-flow: column;
+  gap: 5.25rem;
+}
+
+.disabledButton {
+  background-color: var(--content-tertiary);
+  color: var(--white);
+  cursor: not-allowed;
+  width: 18.5rem;
+  height: 2.8125rem;
+  justify-content: center;
+  border-radius: 1.25rem;
+  border: none;
+}
+
+.button {
+  width: 18.5rem;
+  height: 2.8125rem;
+  justify-content: center;
+  border-radius: 1.25rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+}

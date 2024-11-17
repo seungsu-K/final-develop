@@ -1,0 +1,80 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20rem;
+  height: 43.125;
+  background: var(--background, #f4f4f4);
+  padding-bottom: 2.96875rem;
+}
+
+.searchBar {
+  display: flex;
+  width: 20rem;
+  height: 2.875rem;
+  gap: var(--spacing-12);
+  padding: var(--spacing-8);
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--color-gray-300, #979797);
+  background: var(--white, #fff);
+  z-index: 10;
+}
+
+.searchInput:focus {
+  outline: none;
+  border: none;
+}
+
+.searchInput {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  align-items: center;
+  gap: 0.25rem;
+  flex: 1 0 0;
+  border-radius: 1.25rem;
+  border: none;
+  background: var(--color-gray-100, #f4f4f4);
+
+  color: var(--color-gray-300, #979797);
+
+  font-family: Pretendard;
+  font-size: 0.65644rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.05031rem;
+}
+
+.resultContainer {
+  display: flex;
+  overflow-y: scroll;
+  width: 20rem;
+  height: 43.125rem;
+  padding: 0.75rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.noResults {
+  display: flex;
+  margin-top: 2.875rem;
+  margin-top: 4rem;
+  height: 43.125rem;
+  padding: 1rem 0rem 20rem 0.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  flex-grow: 1;
+
+  color: var(--color-gray-300, #979797);
+  font-family: Pretendard;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.05031rem;
+}

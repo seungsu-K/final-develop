@@ -1,0 +1,10 @@
+{
+  "icons": [
+    {
+      "src": "/apple-icon.png",
+      "type": "image/png",
+      "sizes": "60x60",
+      "purpose": "maskable"
+    }
+  ]
+}

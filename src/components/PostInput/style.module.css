@@ -1,0 +1,14 @@
+.inputWrapper {
+  .input {
+    display: flex;
+    width: 20rem;
+    padding: 0.75rem;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    border: none;
+    border-bottom: 1px solid var(--content-tertiary);
+
+    background: var(--background, #f4f4f4);
+  }
+}

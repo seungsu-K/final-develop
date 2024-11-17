@@ -1,0 +1,25 @@
+.component {
+  display: flex;
+  flex-flow: row;
+
+  input {
+    display: none;
+  }
+
+  input:checked + label {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--white);
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    color: var(--content-secondary);
+    border: 1px solid var(--content-secondary);
+    border-radius: var(--spacing-20);
+    padding: var(--spacing-8) var(--spacing-12);
+    font-size: 0.625rem;
+    font-weight: 600;
+  }
+}

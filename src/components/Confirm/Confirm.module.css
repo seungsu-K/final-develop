@@ -1,0 +1,37 @@
+.component {
+  background-color: var(--white);
+  box-shadow: 0px 2px 10px 0px var(--content-tertiary, #c5c3c3);
+  width: 15.5rem;
+  height: 7.125rem;
+  padding: var(--spacing-20);
+  border-radius: var(--spacing-20);
+  display: flex;
+  flex-flow: column;
+  gap: var(--spacing-12);
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .button__container {
+    display: flex;
+    gap: var(--spacing-8);
+  }
+
+  .button__cancel {
+    background-color: var(--content-tertiary);
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .button__confirm {
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  span {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+}

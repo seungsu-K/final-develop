@@ -1,0 +1,60 @@
+.component {
+  background-color: var(--background);
+  min-height: 25rem;
+  height: 37rem;
+  max-height: 100vh;
+  position: relative;
+  border-bottom: 1px solid var(--content-tertiary);
+
+  .chatRoom__container {
+    min-height: 25rem;
+    background-color: var(--white);
+    padding: var(--spacing-12);
+  }
+
+  .chatRoom__guide {
+    background-color: var(--background);
+    margin-bottom: var(--spacing-20);
+    padding: var(--spacing-12);
+    height: 3rem;
+    font-size: 0.625rem;
+    color: var(--content-secondary);
+    border-radius: var(--spacing-12);
+  }
+
+  .message {
+    padding: var(--spacing-8) var(--spacing-12);
+    border-radius: var(--spacing-20);
+    font-size: 0.875rem;
+    font-weight: 400;
+    max-width: 10rem;
+  }
+
+  .message__user {
+    background-color: var(--secondary);
+    color: var(--white);
+  }
+
+  .message__others {
+    background-color: var(--background);
+    color: var(--black);
+  }
+
+  .message__container {
+    align-content: center;
+    height: 36px;
+  }
+
+  .message__container__user {
+    text-align: right;
+  }
+
+  .guide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.875rem;
+    color: var(--content-secondary);
+  }
+}

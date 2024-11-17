@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "12gain",
+  "description": "프론트엔드 스쿨 10기 12조 파이널 프로젝트",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clear": "rm -rf dist",
+    "lint": "eslint \"./src/**\" --report-unused-disable-directives --ignore-pattern .gitignore"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "motion": "10.18.0",
+    "pocketbase": "^0.21.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "6.26.1",
+    "react-swiper": "^0.1.5",
+    "swiper": "^11.1.14",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.8.0",
+    "@types/node": "20.14.12",
+    "@types/prop-types": "15.7.12",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "eslint": "9.8.0",
+    "eslint-plugin-react": "7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "0.4.9",
+    "globals": "15.9.0",
+    "prop-types": "15.8.1",
+    "vite": "5.4.0"
+  }
+}

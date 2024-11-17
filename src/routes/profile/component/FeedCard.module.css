@@ -1,0 +1,46 @@
+.component {
+  display: flex;
+  gap: var(--spacing-8);
+  width: 18.5rem;
+  height: 6rem;
+  padding: var(--spacing-12);
+  border-radius: var(--spacing-8);
+  background-color: var(--white);
+
+  img {
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: var(--spacing-4);
+  }
+
+  .content__container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 12.125rem;
+  }
+
+  .content__container__sub {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content {
+    max-width: 10.75rem;
+    max-height: 3.75rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+    font-size: 0.625rem;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+
+  .content__date {
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: var(--content-secondary);
+  }
+}

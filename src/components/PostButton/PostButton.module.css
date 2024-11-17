@@ -1,0 +1,11 @@
+.PostButton {
+  position: fixed;
+  display: block;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px 0px var(--color-gray-400, #717171);
+}
+
+.PostButton:disabled {
+  background-color: var(--content-tertiary);
+}

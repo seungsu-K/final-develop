@@ -1,0 +1,7 @@
+.SignUpTitle {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  padding: 1.25rem 0.75rem;
+  margin-bottom: 2.5rem;
+}

@@ -1,0 +1,22 @@
+.component {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.625rem;
+
+  .profile__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.625rem;
+
+    span {
+      color: var(---content-primary);
+      font-size: 0.65644rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 0.98469rem;
+    }
+  }
+}

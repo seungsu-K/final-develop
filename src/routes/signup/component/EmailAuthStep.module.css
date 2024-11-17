@@ -1,0 +1,43 @@
+.Component {
+  text-align: center;
+  position: relative;
+  color: var(--content-secondary);
+}
+
+.InputGroup {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 5.25rem;
+}
+
+.AuthNotice {
+  margin-bottom: 0.5rem;
+}
+
+.AuthMessage {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  margin: 0.75rem 0;
+}
+
+.AuthButton {
+  width: 18.5rem;
+  height: 2.8125rem;
+  justify-content: center;
+  border-radius: 1.25rem;
+  border: 0.5px solid var(--content-secondary);
+  background-color: var(--white);
+  color: var(--content-primary);
+  border: none;
+}
+
+.button {
+  width: 18.5rem;
+  height: 2.8125rem;
+  justify-content: center;
+  border-radius: 1.25rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+}

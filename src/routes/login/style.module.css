@@ -1,0 +1,33 @@
+.LoginTitle {
+  display: flex;
+  flex-flow: column;
+  padding: 1.25rem 0.75rem;
+  margin-bottom: 2.06rem;
+  align-items: center;
+}
+
+.LoginForm {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  width: 18.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.InputGroup {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 2.12rem;
+  gap: var(--spacing-12);
+}
+
+.button {
+  width: 18.5rem;
+  height: 2.8125rem;
+  justify-content: center;
+  border-radius: 1.25rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+}

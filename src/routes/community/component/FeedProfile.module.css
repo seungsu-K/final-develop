@@ -1,0 +1,14 @@
+.component {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.nickName {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  height: 30px;
+  font-size: 0.625rem;
+}

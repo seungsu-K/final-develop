@@ -1,0 +1,25 @@
+.component {
+  display: flex;
+  gap: var(--spacing-12);
+  margin: var(--spacing-12);
+
+  .input__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background);
+    width: 15.5rem;
+    height: var(--spacing-36);
+    padding: var(--spacing-8) var(--spacing-12);
+    border-radius: var(--spacing-20);
+
+    input {
+      border: none;
+      background-color: transparent;
+      font-family: 'Pretendard Variable', sans-serif;
+    }
+
+    input:focus {
+      outline: none;
+    }
+  }
+}

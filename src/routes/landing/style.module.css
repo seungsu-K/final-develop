@@ -1,0 +1,23 @@
+.Component {
+  width: 20rem;
+  inline-size: 20rem;
+  height: 43.3125rem;
+  block-size: 43.3125rem;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  width: 18.5rem;
+  height: 2.8125rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+}

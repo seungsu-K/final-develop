@@ -1,0 +1,17 @@
+.termsList {
+  padding: 0.875rem 0.75rem;
+  display: flex;
+  flex-flow: column;
+}
+.buttonBox {
+  text-align: center;
+}
+.button {
+  width: 18.5rem;
+  height: 2.8125rem;
+  justify-content: center;
+  border-radius: 1.25rem;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+}

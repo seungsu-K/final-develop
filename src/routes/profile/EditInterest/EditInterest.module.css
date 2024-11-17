@@ -1,0 +1,30 @@
+.component {
+  .contents {
+    padding: var(--spacing-20);
+    border-bottom: 1px solid var(--content-tertiary);
+    background-color: var(--background);
+  }
+
+  .headline {
+    margin-bottom: var(--spacing-16);
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--spacing-8);
+  }
+
+  .button {
+    width: 18.5rem;
+    height: 2.8125rem;
+    margin: var(--spacing-12) auto;
+    border-radius: 1.25rem;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+}

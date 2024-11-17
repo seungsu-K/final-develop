@@ -1,0 +1,86 @@
+.component {
+  margin: 0 auto;
+
+  label {
+    display: flex;
+    flex-flow: column;
+    gap: var(--spacing-8);
+    padding: var(--spacing-12);
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .profile {
+    position: relative;
+    height: 6.625rem;
+    padding: var(--spacing-20) var(--spacing-12);
+
+    .profile__upload {
+      position: absolute;
+      bottom: 23px;
+      left: 61px;
+      width: 1.25rem;
+      height: 1.25rem;
+      border-radius: 50%;
+      background-color: var(--white);
+      box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .upload__label {
+      width: 1.25rem;
+      height: 1.25rem;
+      padding: 0;
+    }
+  }
+
+  .aboutMe {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    gap: var(--spacing-8);
+    border-bottom: 1px solid var(--content-tertiary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding-bottom: 5rem;
+
+    h3 {
+      padding: var(--spacing-12);
+      height: var(--spacing-20);
+    }
+
+    .aboutMe__textCheck {
+      font-size: 0.625rem;
+      font-weight: 400;
+      color: var(--content-secondary);
+    }
+
+    .textarea {
+      width: calc(20rem - (2 * var(--spacing-12)));
+      border: 1px solid var(--content-secondary);
+      padding: var(--spacing-8) var(--spacing-12);
+      border-radius: var(--rounded-lg);
+    }
+
+    .textarea__span {
+      margin: var(--spacing-12) var(--spacing-8);
+      font-weight: 400;
+    }
+  }
+
+  .interest__container {
+    display: flex;
+    justify-content: space-between;
+    height: var(--spacing-46);
+    padding: var(--spacing-12);
+    border-top: 1px solid var(--content-tertiary);
+    border-bottom: 1px solid var(--content-tertiary);
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .interest__button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}

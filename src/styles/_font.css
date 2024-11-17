@@ -1,0 +1,112 @@
+.heading-xxxl {
+  font-family: Pretendard;
+  font-size: 2.7626rem; /* 44.202px */
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.heading-xxl {
+  font-family: Pretendard;
+  font-size: 2.0725rem; /* 33.16px */
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.heading-xl {
+  font-family: Pretendard;
+  font-size: 1.5547rem; /* 24.876px */
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.heading-lg {
+  font-family: Pretendard;
+  font-size: 1.1664rem; /* 18.662px */
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.heading-md {
+  font-family: Pretendard;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.heading-sm {
+  font-family: Pretendard;
+  font-size: 0.6564rem; /* 10.503px */
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.label-xxl {
+  font-family: Pretendard;
+  font-size: 2.0725rem; /* 33.16px */
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.label-xl {
+  font-family: Pretendard;
+  font-size: 1.5547rem; /* 24.876px */
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.label-lg {
+  font-family: Pretendard;
+  font-size: 1.1664rem; /* 18.662px */
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.label-md {
+  font-family: Pretendard;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.label-sm {
+  font-family: Pretendard;
+  font-size: 0.75rem; /* 12px */
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.paragraph-xl {
+  font-family: Pretendard;
+  font-size: 1.5547rem; /* 24.876px */
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.paragraph-lg {
+  font-family: Pretendard;
+  font-size: 1.1664rem; /* 18.662px */
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.paragraph-md {
+  font-family: Pretendard;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.paragraph-sm {
+  font-family: Pretendard;
+  font-size: 0.75rem; /* 12px */
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.paragraph-underline {
+  font-family: Pretendard;
+  font-size: 0.75rem; /* 12px */
+  font-weight: 400;
+  text-decoration: underline;
+  line-height: 1.6;
+}

@@ -1,0 +1,13 @@
+.component {
+  aside {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .button__container {
+    position: absolute;
+    bottom: 4rem;
+    left: 16rem;
+  }
+  padding-bottom: 2.96875rem;
+}
